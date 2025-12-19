@@ -1,0 +1,27 @@
+inherit_from: .rubocop_todo.yml
+
+# Omakase Ruby styling for Rails
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false
+require:
+  - rubocop-rails
+  - rubocop-rspec
+AllCops:
+  NewCops: enable
+  Exclude: 
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'node_modules/**/*'
+    
+# We don't need documentation comments for every single class in a fast-paced API
+Style/Documentation:
+  Enabled: false
+
+# Enforce strict string literals for performance (Ruby 3 optimization)
+Style/FrozenStringLiteralComment:
+  Enabled: true
