@@ -58,3 +58,5 @@ gem "rubocop-rspec", "~> 3.8", :groups => [:development, :test]
 gem "sidekiq"
 
 gem "faker", "~> 3.5", :group => :test
+
+gem "shoulda-matchers", "~> 7.0", :group => :test

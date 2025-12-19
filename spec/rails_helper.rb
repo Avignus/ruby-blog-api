@@ -7,6 +7,15 @@ require_relative '../config/environment'
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 require 'simplecov'
+require 'shoulda/matchers'
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
+
 SimpleCov.start 'rails' do
   add_filter 'bin'
   add_filter 'db/schema.rb'
