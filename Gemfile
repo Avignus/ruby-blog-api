@@ -37,10 +37,10 @@ gem "image_processing", "~> 1.2"
 gem "rack-cors"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0'           # RSpec test framework
+  gem 'rspec-rails', '~> 7.0'           # RSpec test framework
   gem 'factory_bot_rails'               # Test data factories
   gem 'simplecov', require: false       # Coverage reports
-
+  gem "shoulda-matchers", '~> 6.0'
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
@@ -57,7 +57,4 @@ end
 gem "rubocop-rails", "~> 2.34", :groups => [:development, :test]
 gem "rubocop-rspec", "~> 3.8", :groups => [:development, :test]
 gem "sidekiq"
-
 gem "faker", "~> 3.5", :group => :test
-
-gem "shoulda-matchers", "~> 7.0", :group => :test

@@ -1,18 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/igor/blog_api/app/services/post_publishing_service.rb": {
+      "/home/igor/blog_api/app/models/post.rb": {
         "lines": [
           1,
           1,
-          0,
-          null,
-          null,
           1,
-          0,
-          0,
-          0,
-          null,
+          1,
+          null
+        ]
+      },
+      "/home/igor/blog_api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -78,6 +79,33 @@
         ],
         "branches": {}
       },
+      "/home/igor/blog_api/app/controllers/posts_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      },
       "/home/igor/blog_api/app/jobs/application_job.rb": {
         "lines": [
           0,
@@ -99,14 +127,6 @@
         ],
         "branches": {}
       },
-      "/home/igor/blog_api/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {}
-      },
       "/home/igor/blog_api/app/models/article.rb": {
         "lines": [
           0,
@@ -118,8 +138,42 @@
           0
         ],
         "branches": {}
+      },
+      "/home/igor/blog_api/app/models/user.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/home/igor/blog_api/app/services/post_publishing_service.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
       }
     },
-    "timestamp": 1766155464
+    "timestamp": 1766427287
   }
 }
