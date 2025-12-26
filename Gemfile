@@ -37,7 +37,7 @@ gem "image_processing", "~> 1.2"
 gem "rack-cors"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 7.0'           # RSpec test framework
+  gem 'rspec-rails', '~> 8.0'           # RSpec test framework
   gem 'factory_bot_rails'               # Test data factories
   gem 'simplecov', require: false       # Coverage reports
   gem "shoulda-matchers", '~> 6.0'
