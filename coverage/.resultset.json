@@ -17,6 +17,23 @@
           null
         ]
       },
+      "/home/igor/blog_api/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/home/igor/blog_api/app/controllers/api/v1/articles_controller.rb": {
         "lines": [
           0,
@@ -139,24 +156,6 @@
         ],
         "branches": {}
       },
-      "/home/igor/blog_api/app/models/user.rb": {
-        "lines": [
-          0,
-          null,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {}
-      },
       "/home/igor/blog_api/app/services/post_publishing_service.rb": {
         "lines": [
           0,
@@ -174,6 +173,6 @@
         "branches": {}
       }
     },
-    "timestamp": 1766427287
+    "timestamp": 1766436148
   }
 }

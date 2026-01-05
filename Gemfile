@@ -58,3 +58,4 @@ gem "rubocop-rails", "~> 2.34", :groups => [:development, :test]
 gem "rubocop-rspec", "~> 3.8", :groups => [:development, :test]
 gem "sidekiq"
 gem "faker", "~> 3.5", :group => :test
+gem "redis", "~> 5.0"    # Sidekiq storage (in-memory)
